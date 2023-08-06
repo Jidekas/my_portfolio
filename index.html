@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AE Jideofor</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar__logo">
+            <!-- <h1><span>AE</span> JIDEOFOR</h1> -->
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <nav class="navbar__navlinks">
+            <p><a href="#home">HOME</a></p>
+            <p><a href="#about">ABOUT</a></p>
+            <p><a href="#">PROJECTS</a></p>
+            <p><a href="#">CONTACT</a></p>
+        </nav>
+        <div class="navbar__menu">
+            <i class="fa-solid fa-bars" id="menu" onclick="openMenu()"></i>
+            <i class="fa-solid fa-times" id="close" onclick="closeMenu()"></i>
+
+            <div class="navbar__menu-container  scale-up-center ">
+                <nav class="navbar__menu-container_navlinks">
+                    <p><a href="#home">HOME</a></p>
+                    <p><a href="#about">ABOUT</a></p>
+                    <p><a href="#">PROJECTS</a></p>
+                    <p><a href="#">CONTACT</a></p>
+                </nav>
+            </div>
+        </div>
+    </div>
+    
+    <header id="home" class="header">
+       
+            <div class="header__content">
+                <div class="header__content-img">
+                    <img src="images/portrait2.PNG" alt="image">
+                </div>
+                <div class="header__content-items">
+                    <p id="greeting">HELLO THERE, I AM:</p>
+                    <h1>AE JIDEOFOR</h1>
+                    <p>A Developer. I create and maintain modern websites and applications. I can help with all your business design solutions.</p>
+                    <button id="btn" href="#contacts" onmouseover="hover()" onmouseout="out()" >Let's Talk <div><i id="icon" class=" fa-solid fa-arrow-right"></i></div>
+                    </button>
+                </div>
+            </div> 
+    </header>
+
+    <section id="about" class="about">
+        
+            <div class="about__cv-text">
+                <p>Currently working as an intern with <span>@Decagon</span>, I am passionate about personal growth and development. It gives me great joy and satisfaction to see an idea come to life in the form of a smoothe functional application.</p>
+            </div>
+            <div class="about__cv-experience">
+                <div class="about__cv-experience__projects">
+                    <h1>Over 5</h1>
+                    <p>SUCCESFULLY COMPLETED PROJECTS</p>
+                </div>
+                <div class="about__cv-experience__time">
+                    <h1>2</h1>
+                    <p>MONTHS OF EXPERIENCE</p>
+                </div>
+            </div>
+       
+
+    </section>
+
+    <footer class="footer">
+        <div class="footer__text">
+            <h1>I Deliver with the Lastest Technology Available</h1>
+        </div>
+        <div class="footer__container">
+            <img src="images/html.png" alt="">
+            <img src="images/css.png" alt="">
+            <img src="images/javascript.png" alt="">
+            <img src="images/react.png" alt="">
+            <img src="images/node.png" alt="">
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
